@@ -1,0 +1,48 @@
+site_name: My Docs
+site_url: https://example.com
+nav:
+  - Home: "index.md"
+  - "Language":
+      - "easy markdown": "easy markdown.md"
+      - "mkdocs_start": "mkdocs_2.md"
+      - "C++ tip": "C++_debug_record.md"
+      - "C++ 进阶": "C++_primer.md"
+  - "tools":
+      - "Shell": "shell.md"
+      - "Vim": "vim.md"
+  - "CS":
+      - "CS_basis": "CS_basical_knowledge.md"
+  - "Selective-L":
+      - "Mobile_Phone_Photo bases": "Photo.md"
+  - About: "about.md"
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+theme:
+  name: material
+  logo: /logo.png
+  features:
+    - search.highlight
+    - navigation.tabs
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
