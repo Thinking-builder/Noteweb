@@ -1,19 +1,23 @@
 site_name: My Docs
-site_url: https://example.com
+site_url: https://note.thinkingbuilder.cc
+repo_name: Thinking-builder/notebook  #存储库名称，一般自动设置
+repo_url: https://github.com/Thinking-builder/Noteweb #存储库URL
+site_discription: Thinking_Builder的笔记
 nav:
-  - Home: "index.md"
-  - "Language":
-      - "easy markdown": "easy markdown.md"
-      - "mkdocs_start": "mkdocs_2.md"
-      - "C++ 进阶": "C++_primer.md"
-  - "tools":
-      - "Shell": "shell.md"
-      - "Vim": "vim.md"
-  - "CS":
-      - "CS_basis": "CS_basical_knowledge.md"
-  - "Selective-L":
-      - "Mobile_Phone_Photo bases": "Photo.md"
-  - About: "about.md"
+  - Home: index.md
+  - Language:
+      - easy markdown: easy markdown.md
+      - mkdocs_start: mkdocs_2.md
+      - C++:
+          - C++ tip: C++_debug_record.md
+          - C++ 进阶: C++_primer.md
+  - tools:
+      - Shell: shell.md
+      - Vim: vim.md
+  - CS:
+      - CS Crash Course: CS_basical_knowledge.md
+  - Hobby Field:
+      - 手机摄影: Photo.md
 
 markdown_extensions:
   - toc:
