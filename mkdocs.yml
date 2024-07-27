@@ -5,7 +5,6 @@ nav:
   - "Language":
       - "easy markdown": "easy markdown.md"
       - "mkdocs_start": "mkdocs_2.md"
-      - "C++ tip": "C++_debug_record.md"
       - "C++ 进阶": "C++_primer.md"
   - "tools":
       - "Shell": "shell.md"
